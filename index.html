@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/bootstrap.min.css" />
+    <link rel="stylesheet" href="./src/fonts/remixicon.css" />
+    <link rel="stylesheet" href="./src/index.css" />
+
+    <title>Frontend Mentor | Launch countdown timer</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div id="main-content" class="text-center">
+          <h2 id="title" class="text-white text-uppercase">
+            We're launching soon
+          </h2>
+          <div id="counter-details" class="align-items-center">
+            <div class="d-flex flex-column">
+              <div class="counter-item rounded">
+                <span id="day" class="fs-1"></span>
+              </div>
+              <h4 class="description">Days</h4>
+            </div>
+            <div class="d-flex flex-column">
+              <div class="counter-item rounded">
+                <span id="hour" class="fs-1"></span>
+              </div>
+              <h4 class="description">Hours</h4>
+            </div>
+            <div class="d-flex flex-column">
+              <div class="counter-item rounded">
+                <span id="minutes" class="fs-1"></span>
+              </div>
+              <h4 class="description">Minutes</h4>
+            </div>
+            <div class="d-flex flex-column">
+              <div class="counter-item rounded">
+                <span id="sec" class="fs-1"></span>
+              </div>
+              <h4 class="description">Seconds</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div
+      id="social-links"
+      class="d-flex gap-5 justify-content-center align-items-center position-absolute"
+    >
+      <a href="#"><i class="ri-facebook-box-fill"></i></a>
+      <a href="#">
+        <i class="ri-pinterest-fill"></i>
+      </a>
+      <a href="#">
+        <i class="ri-instagram-line"></i>
+      </a>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
+<!-- 
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
